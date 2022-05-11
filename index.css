@@ -1,0 +1,203 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+
+   Thank you to www.DesktopBackground.org for
+   providing the amazing background on this site.
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+.container {
+    width: 100%;
+	height: 100%;
+	margin: auto;
+	
+}
+
+.background {
+	background-image: url("https://wallpaperaccess.com/full/5591884.jpg");
+	background-repeat: repeat;
+	background-size: 100%;
+	background-position: center;
+	
+}
+
+.top-border {
+	width: 100%;
+	margin: auto;
+	background-image: linear-gradient(to right, #2c3e50  , #bdc3c7 );
+	height: 5rem;
+}
+
+h1 {
+	display: flex;
+	flex-flow: column;
+	height: 4.5rem;
+	margin: auto;
+	font-size: 2.5rem;
+	width: 100%;
+	letter-spacing: .2rem;
+	color: whitesmoke;
+	font-family: Courier New, monospace;
+	padding-left: 1rem;
+	align-items: left;
+	justify-content: center;
+}
+
+h2 {
+	text-align: left;
+	font-size: 2.5rem;
+}
+
+h3 {
+	color: orangered;
+}
+
+h4 {
+	color: yellowgreen;
+}
+
+a {
+	position: relative;
+	text-decoration: none;
+	color: whitesmoke;
+	font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+	font-size: 1.5rem;
+	letter-spacing: .2rem;
+}
+
+a:hover {
+	color: #CA06D4;
+}
+
+ul {
+	display: flex;
+	align-items: center;
+}
+
+ul li {
+	margin-right: 20px;
+}
+
+nav {
+	padding: 10px;
+
+	@media (min-width: 600px){
+		padding: 20px;
+	}
+}
+
+nav.flexbox {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	flex-wrap: wrap;
+}
+
+.columns {
+	display: flex;
+	flex-flow: row;
+}
+
+.left-column {
+	display: flex;
+	flex-flow: column;
+	width:40%;
+	padding: 2rem;
+	text-align: left;
+	font-weight: bolder;
+	font-style: italic;
+	color: aliceblue;
+}
+
+.left-column img {
+	border-radius: 50%;
+	width:60%;
+	margin-left: auto;
+	margin-right: auto;
+	width: 25%;
+	padding-bottom: 4rem;;
+}
+
+.left-column p {
+	font-size: 19px;
+	line-height: 32px;
+	color: orangered;
+}
+
+.about{
+	padding-top: .5rem;
+}
+
+.social {
+	padding-top: 5rem;
+}
+
+.right-column {
+	display: flex;
+	flex-flow: column;
+	text-align: left;
+	padding-top: 2rem;
+	padding: 2rem;
+	font-weight: bolder;
+	font-style: italic;
+	color: aliceblue;	
+}
+
+.a.buttonstyle:hover {
+	border-color: #CA06D4;
+	color:#CA06D4;
+}
+ 
+.footer {
+	position: sticky;
+	bottom: 0;
+	width: 100%;
+	margin: auto;
+	background-image: linear-gradient(to right, #2c3e50  , #bdc3c7);
+	height: 2rem;
+}
+/*#1F9D8C*/
