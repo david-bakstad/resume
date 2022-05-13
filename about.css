@@ -51,6 +51,7 @@ table {
     width: 100%;
 	height: 100%;
 	margin: auto;
+	border: 0;
 	
 }
 
@@ -101,6 +102,11 @@ h2 {
 	font-size: 2.5rem;
 }
 
+@media screen and (max-width: 600px) {
+	h2 {
+		text-align: center;
+	}
+}
 a {
 	position: relative;
 	text-decoration: none;
@@ -134,6 +140,13 @@ nav.flexbox {
 	flex-wrap: wrap;
 }
 
+@media screen and (max-width: 600px) {
+	nav.flexbox {
+		display: flex;	
+		flex-flow: column;
+	}
+}
+
 .content {
 	display: flex;
 	flex-flow: column;
@@ -145,6 +158,12 @@ nav.flexbox {
 	color: aliceblue;
 }
 
+@media screen and (max-width: 600px) {
+	.content {
+		align-items: center;
+	}
+}
+
 .content img {
 	border-radius: 50%;
 	width:60%;
@@ -154,10 +173,23 @@ nav.flexbox {
 	padding-bottom: 4rem;;
 }
 
+@media screen and (max-width: 600px) {
+	.content img {
+		align-items: center;
+	}
+}
+
 .content p {
 	font-size: 19px;
 	line-height: 32px;
 	color: orangered;
+}
+
+@media screen and (max-width: 600px) {
+	.content p {
+		align-items: center;
+		text-align: center;
+	}
 }
  
 .footer {
